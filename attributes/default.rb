@@ -23,6 +23,7 @@ default['rabbitmq']['config'] = nil
 default['rabbitmq']['logdir'] = nil
 default['rabbitmq']['server_additional_erl_args'] = nil
 default['rabbitmq']['ctl_erl_args'] = nil
+default['rabbitmq']['use_longnames'] = nil
 default['rabbitmq']['mnesiadir'] = '/var/lib/rabbitmq/mnesia'
 default['rabbitmq']['service_name'] = 'rabbitmq-server'
 
